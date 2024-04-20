@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding: 0%;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header .logo{
+    font-size: 25px;
+    font-weight: 1000;
+    color: grey ;
+
+} 
+
+header{
+    position:fixed;
+    background: linear-gradient(To right,blue,violet,navy);
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 10%;
+    
+}
+nav {
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding-right: 10%;
+    
+
+}
+
+ul .a{
+    padding: 10px;
+    display: flex;
+    float:right;
+}
+
+a{
+    padding-right: 25px;
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    color: azure;
+    transition:1s;
+
+}
+
+.photo{
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    margin-left: 55px;
+    border: 20px solid white;
+}
+
+
+.home{
+    width: 100%;
+    height:100vh;
+    background:linear-gradient(To right,white 65%,grey 35%);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main h1{
+    font-size: 80px;
+    font-weight: 70;
+}
+.main h2{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.aboutme{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(To right,grey 70%,white 30%);
+    align-items: center;
+    display: flex;
+    justify-content: space-around  ;
+
+}
+
+.photo1{
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+    border: 20px solid white;
+    margin-right:220px ;
+    
+
+}
+
+.page2{
+    font-size: 25px;
+    color:whitesmoke;
+    margin-left: 5%;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.skills{
+    width: 100%;
+    height:100vh;
+    background:linear-gradient(To right,grey 30%,white 25%,white);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.page3{
+    background: transparent;
+    color: grey;
+    font-size: 30px;
+    font-weight: 300;
+   
+}
+
+.photo2{
+    width: 70%;
+    height: 50%;
+    border-radius: 50%;
+    border: 20px solid grey;
+    outline: 20px solid white;
+    margin-right: 200px;
+    
+}
+
+.education{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(To right,white 30%,grey 30%,grey);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.photo3{
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 30%;
+}
+
+.page4 p{
+    color: white;
+    font-size: 30px;
+
+}
+
+.projects{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(To right,grey 30%,white 30%,white);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.photo4{
+    border-radius: 50%;
+    height: 50%;
+    width: auto;
+    border: 20px solid grey;
+    outline: 20px solid white;
+    margin: 0px 0px 0px 120px;
+}
+
+.page5 p{
+    font-size: 40px;
+    color: rgba(70, 64, 72, 0.434);
+}
+
+.contact{
+    width: 100%;
+    height:100vh;
+    background: rgba(128, 128, 128, 0.491);
+    align-content: center;
+    
+    
+}
+
+.page6{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    padding-top: 5px;
+    
+}
+
+.page6 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+    align-content: center;
+    padding: 5px;
+    
+}
+
+.link{
+    display: flex;
+    align-content: center;
+    margin: 5px;
+}
+
+.link p{
+    font-size: 30px;
+    align-self: center;
+}
+
